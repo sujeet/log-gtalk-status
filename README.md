@@ -12,4 +12,4 @@ Using the bot
 * You might find the following information useful for
   setting up filters etc for the mails
   - Sender : "Status Logger <no-reply@log-gtalk-status.appspotmail.com>"
-  - Suject : "Re: Gtalk status update"
+  - Subject : "Re: Gtalk status update"
