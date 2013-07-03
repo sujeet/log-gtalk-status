@@ -1,0 +1,6 @@
+indexes:
+
+- kind: GtalkStatus
+  properties:
+  - name: email_id
+  - name: time_stamp

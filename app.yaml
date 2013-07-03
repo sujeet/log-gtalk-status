@@ -1,0 +1,13 @@
+application: log-gtalk-status
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: log-gtalk-status.application
+
+inbound_services:
+- xmpp_subscribe
+- xmpp_presence
