@@ -50,7 +50,7 @@ class StatusLogger (webapp2.RequestHandler):
             mail.send_mail (
                 sender="Status Logger <no-reply@log-gtalk-status.appspotmail.com>",
                 to = user_email,
-                subject = "Re: Gtalk status update",
+                subject = "Re: Gtalk status update at " + str(gtalk_status.time_stamp),
                 body = status
                 )
 
